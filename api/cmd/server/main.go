@@ -33,7 +33,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8080"
+		port = "18080"
 	}
 	log.Printf("API server listening on :%s", port)
 	if err := router.Run(":" + port); err != nil {

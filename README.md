@@ -18,21 +18,21 @@ npm install
 
 ## Run
 
-**Backend** (http://localhost:8080):
+**Backend** (http://localhost:18080):
 
 ```bash
 cd api
 go run ./cmd/server
 ```
 
-**Frontend** (http://localhost:4200):
+**Frontend** (http://localhost:14200):
 
 ```bash
 cd frontend
 npm start
 ```
 
-Open <http://localhost:4200>, type a comment in the box and press **ENTER**.
+Open <http://localhost:14200>, type a comment in the box and press **ENTER**.
 
 ## Run tests
 
