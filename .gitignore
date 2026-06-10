@@ -1,0 +1,18 @@
+# Go
+api/bin/
+*.exe
+*.test
+*.out
+
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+npm-debug.log*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
