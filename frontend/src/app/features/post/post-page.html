@@ -1,0 +1,40 @@
+<div class="page">
+  <header class="page-header">IT 08-1</header>
+
+  <main class="page-content">
+    @if (post(); as post) {
+      <article class="post">
+        <div class="post-author">
+          <span class="avatar">{{ post.authorName.charAt(0) }}</span>
+          <div>
+            <div class="author-name">{{ post.authorName }}</div>
+            <div class="post-date">{{ post.postedAt | date: 'd MMMM y HH:mm' }}</div>
+          </div>
+        </div>
+        <img class="post-image" [src]="post.imageUrl" [alt]="'Photo posted by ' + post.authorName" />
+      </article>
+
+      <section class="comments">
+        <div class="comment-form">
+          <span class="avatar">{{ currentUser.charAt(0) }}</span>
+          <div class="comment-form-body">
+            <div class="author-name">{{ currentUser }}</div>
+            <input
+              class="comment-input"
+              type="text"
+              placeholder="Comment"
+              [(ngModel)]="draft"
+              (keydown.enter)="submit()"
+            />
+          </div>
+        </div>
+
+        @for (comment of comments(); track comment.id) {
+          <app-comment-item [comment]="comment" />
+        }
+      </section>
+    } @else {
+      <p class="loading">Loading…</p>
+    }
+  </main>
+</div>

@@ -1,0 +1,90 @@
+.page {
+  max-width: 720px;
+  margin: 24px auto;
+  border: 1px solid #1f1f1f;
+  background: #fff;
+}
+
+.page-header {
+  background: #00b050;
+  color: #1f1f1f;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 0;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.page-content {
+  padding: 24px 32px 32px;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #3a66c5;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-author {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.author-name {
+  font-weight: 700;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.post-image {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  margin: 16px auto 24px;
+}
+
+.comments {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.comment-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.comment-form-body {
+  flex: 1;
+}
+
+.comment-input {
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 16px;
+  background: #d9d9d9;
+  font: inherit;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.comment-input::placeholder {
+  color: #8a8a8a;
+}
+
+.loading {
+  text-align: center;
+  color: #777;
+}
