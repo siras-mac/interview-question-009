@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"example.com/interview-question-009/api/internal/domain"
-	"example.com/interview-question-009/api/internal/usecase"
+	"example.com/interview-question-09/api/internal/domain"
+	"example.com/interview-question-09/api/internal/usecase"
 )
 
 // PostHandler exposes post and comment endpoints over HTTP.

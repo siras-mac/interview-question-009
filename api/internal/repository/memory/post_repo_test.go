@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"example.com/interview-question-009/api/internal/domain"
-	"example.com/interview-question-009/api/internal/repository/memory"
+	"example.com/interview-question-09/api/internal/domain"
+	"example.com/interview-question-09/api/internal/repository/memory"
 )
 
 func TestPostRepoFindByID(t *testing.T) {

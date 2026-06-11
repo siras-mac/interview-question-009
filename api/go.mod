@@ -1,4 +1,4 @@
-module example.com/interview-question-009/api
+module example.com/interview-question-09/api
 
 go 1.26.2
 

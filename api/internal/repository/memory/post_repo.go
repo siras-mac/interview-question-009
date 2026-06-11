@@ -3,7 +3,7 @@ package memory
 import (
 	"sync"
 
-	"example.com/interview-question-009/api/internal/domain"
+	"example.com/interview-question-09/api/internal/domain"
 )
 
 // PostRepo is an in-memory implementation of domain.PostRepository.

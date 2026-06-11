@@ -1,6 +1,6 @@
 package usecase
 
-import "example.com/interview-question-009/api/internal/domain"
+import "example.com/interview-question-09/api/internal/domain"
 
 // PostUsecase contains business logic for posts.
 type PostUsecase struct {

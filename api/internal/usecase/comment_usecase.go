@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"example.com/interview-question-009/api/internal/domain"
+	"example.com/interview-question-09/api/internal/domain"
 )
 
 // CommentUsecase contains business logic for comments.

@@ -10,10 +10,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"example.com/interview-question-009/api/internal/domain"
-	"example.com/interview-question-009/api/internal/handler"
-	"example.com/interview-question-009/api/internal/repository/memory"
-	"example.com/interview-question-009/api/internal/usecase"
+	"example.com/interview-question-09/api/internal/domain"
+	"example.com/interview-question-09/api/internal/handler"
+	"example.com/interview-question-09/api/internal/repository/memory"
+	"example.com/interview-question-09/api/internal/usecase"
 )
 
 func newTestRouter() *gin.Engine {

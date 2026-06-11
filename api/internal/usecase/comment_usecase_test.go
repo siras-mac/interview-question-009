@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"example.com/interview-question-009/api/internal/domain"
-	"example.com/interview-question-009/api/internal/repository/memory"
-	"example.com/interview-question-009/api/internal/usecase"
+	"example.com/interview-question-09/api/internal/domain"
+	"example.com/interview-question-09/api/internal/repository/memory"
+	"example.com/interview-question-09/api/internal/usecase"
 )
 
 func newFixture() (*usecase.PostUsecase, *usecase.CommentUsecase) {
